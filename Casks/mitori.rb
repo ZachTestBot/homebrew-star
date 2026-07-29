@@ -7,7 +7,7 @@ cask "mitori" do
   desc "Monitor Apple ID store credit balances from the menu bar"
   homepage "https://github.com/Zach677/mitori"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Mitori.app"
 
